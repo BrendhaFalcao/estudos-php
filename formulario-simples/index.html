@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form test</title>
+  </head>
+
+  <body>
+    <h3>Preencha os campos abaixo:</h3>
+
+    <form method="post" action="script.php">
+      
+      <label for="name">Nome:</label>
+      <input type="text" name="name-input" id="name" />
+
+      <br />
+      <br />
+
+      <label for="email">E-mail:</label>
+      <input type="email" name="email-input" id="email" />
+      <br />
+      <br />
+
+      <label for="texto">Digite o texto que você quer enviar:</label>
+      <br>
+      <textarea type="text" name="text-input" id="texto" cols="30" rows="10" /></textarea>
+
+      <br />
+      <br />
+
+      <input type="checkbox" name="newsletter-input" id="newsletter" checked />
+      <label for="newsletter">Quer receber nossa newsletter?</label>
+
+      <br>
+      <br>
+      
+      <input type="submit" name="next" value="Próximo">
+
+    </form>
+
+  </body>
+</html>
